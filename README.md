@@ -71,7 +71,6 @@ go_postgres_project/
 ├── main.go              # Application entry point
 ├── go.mod               # Go module dependencies
 ├── go.sum               # Go module checksums
-├── .env                 # Environment variables (create this)
 ├── middleware/
 │   └── handler.go       # HTTP handlers and database operations
 ├── models/
@@ -267,4 +266,4 @@ Created with ❤️ using Go and PostgreSQL
 
 ---
 
-**Note:** Make sure to replace the database connection string in the `.env` file with your actual PostgreSQL credentials before running the application.
+**Note:** Make sure to create a `.env` file with your actual PostgreSQL credentials before running the application. Never commit the `.env` file to version control as it contains sensitive information.
